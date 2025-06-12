@@ -70,7 +70,7 @@ const initSettings: UserSettingsModel = {
       [`${ImageLinkTypeEnum.vxo_im}`]: {
         id: getUuid(),
         name: ImageLinkTypeEnum.vxo_im,
-        rule: 'https://cdn.jsdelivr.net/gh/{{owner}}/{{repo}}@{{branch}}/{{path}}'
+        rule: 'https://jsd.vxo.im/gh/{{owner}}/{{repo}}@{{branch}}/{{path}}'
       },
       //aby_pub
       [`${ImageLinkTypeEnum.aby_pub}`]: {
