@@ -130,7 +130,15 @@ export enum ImageLinkTypeEnum {
   // eslint-disable-next-line no-unused-vars
   jsDelivr = 'jsDelivr',
   // eslint-disable-next-line no-unused-vars
-  ChinaJsDelivr = 'ChinaJsDelivr',
+  jsdmirror = 'jsdmirror',
   // eslint-disable-next-line no-unused-vars
-  Statically = 'Statically'
+  Statically = 'Statically',
+  // eslint-disable-next-line no-unused-vars
+  vxo_im = 'vxo_im', 
+  // eslint-disable-next-line no-unused-vars
+  aby_pub = 'aby_pub',
+  // eslint-disable-next-line no-unused-vars
+  ygxz_in = 'ygxz_in',
+  // eslint-disable-next-line no-unused-vars
+  bee_image_oss = 'bee_image_oss'
 }

@@ -52,21 +52,45 @@ const initSettings: UserSettingsModel = {
       [`${ImageLinkTypeEnum.jsDelivr}`]: {
         id: getUuid(),
         name: ImageLinkTypeEnum.jsDelivr,
-        rule: 'https://cdn.jsdelivr.net/gh/{{owner}}/{{repo}}@{{branch}}/{{path}}'
+        rule: 'https://fastly.jsDelivr.net/gh/{{owner}}/{{repo}}@{{branch}}/{{path}}'
       },
       // Statically
       [`${ImageLinkTypeEnum.Statically}`]: {
         id: getUuid(),
         name: ImageLinkTypeEnum.Statically,
-        rule: 'https://cdn.statically.io/gh/{{owner}}/{{repo}}@{{branch}}/{{path}}'
+        rule: 'https://cdn.mfawa.top/gh/{{owner}}/{{repo}}@{{branch}}/{{path}}'
       },
-      // ChinaJsDelivr
-      [`${ImageLinkTypeEnum.ChinaJsDelivr}`]: {
+      // jsdmirror
+      [`${ImageLinkTypeEnum.jsdmirror}`]: {
         id: getUuid(),
-        name: ImageLinkTypeEnum.ChinaJsDelivr,
-        rule: 'https://jsd.cdn.zzko.cn/gh/{{owner}}/{{repo}}@{{branch}}/{{path}}'
+        name: ImageLinkTypeEnum.jsdmirror,
+        rule: 'https://cdn.jsdmirror.cn/gh/{{owner}}/{{repo}}@{{branch}}/{{path}}'
+      },
+      // vxo.im
+      [`${ImageLinkTypeEnum.vxo_im}`]: {
+        id: getUuid(),
+        name: ImageLinkTypeEnum.vxo_im,
+        rule: 'https://cdn.jsdelivr.net/gh/{{owner}}/{{repo}}@{{branch}}/{{path}}'
+      },
+      //aby_pub
+      [`${ImageLinkTypeEnum.aby_pub}`]: {
+        id: getUuid(),
+        name: ImageLinkTypeEnum.aby_pub,
+        rule: 'https://jsdelivr.aby.pub/gh/{{owner}}/{{repo}}@{{branch}}/{{path}}'
+      },
+      //ygxz_in
+      [`${ImageLinkTypeEnum.ygxz_in}`]: {
+        id: getUuid(),
+        name: ImageLinkTypeEnum.ygxz_in,
+        rule: 'https://jsd-proxy.ygxz.in/gh/{{owner}}/{{repo}}@{{branch}}/{{path}}'
+      },
+      //bee_image_oss
+      [`${ImageLinkTypeEnum.bee_image_oss}`]: {
+        id: getUuid(),
+        name: ImageLinkTypeEnum.bee_image_oss,
+        rule: 'https://cdn.bee-zh.cn/image/{{path}}'
       }
-    }
+    },
   },
   imageLinkFormat: {
     enable: false,
