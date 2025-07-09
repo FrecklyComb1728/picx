@@ -64,7 +64,7 @@ const initSettings: UserSettingsModel = {
       [`${ImageLinkTypeEnum.jsdmirror}`]: {
         id: getUuid(),
         name: ImageLinkTypeEnum.jsdmirror,
-        rule: 'https://cdn.jsdmirror.cn/gh/{{owner}}/{{repo}}@{{branch}}/{{path}}'
+        rule: 'https://cdn.jsdmirror.com/gh/{{owner}}/{{repo}}@{{branch}}/{{path}}'
       },
       // vxo.im
       [`${ImageLinkTypeEnum.vxo_im}`]: {
@@ -88,7 +88,7 @@ const initSettings: UserSettingsModel = {
       [`${ImageLinkTypeEnum.bee_image_oss}`]: {
         id: getUuid(),
         name: ImageLinkTypeEnum.bee_image_oss,
-        rule: 'https://cdn.bee-zh.cn/image/{{path}}'
+        rule: 'https://cdn.mfawa.top/oss/{{path}}'
       }
     },
   },
